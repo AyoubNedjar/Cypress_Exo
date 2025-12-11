@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rec:run": "npx cypress run",
+    "rec:open": "npx cypress open",
+    "prod:mango:record": "npx cypress run --record"
   },
   "keywords": [],
   "author": "",
