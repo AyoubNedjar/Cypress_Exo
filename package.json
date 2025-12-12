@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "rec:run": "npx cypress run",
     "rec:open": "npx cypress open",
-    "prod:mango:record": "npx cypress run --record"
+    "prod:mango:record": "npx cypress run --record --key {{CYPRESS_PROJECT_KEY}}"
   },
   "keywords": [],
   "author": "",
