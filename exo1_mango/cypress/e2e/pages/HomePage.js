@@ -9,7 +9,7 @@ class HomePage{
     }
 
     /**
-     * quand l'ecran est plus petit nécessaire
+     * Ouvrir le menu principal
      */
     openMenu(){
          cy.get('button[aria-label="Menu"]').click()
